@@ -1,0 +1,458 @@
+/***************************/
+
+
+/* Below 1344px (smaller desktops) */
+
+
+/***************************/
+
+@media (max-width: 84em) {
+    .hero {
+        max-width: 120rem;
+    }
+    .heading-need {
+        font-size: 3.6rem;
+    }
+    .need-text {
+        padding: 2.4rem 2.8rem;
+    }
+}
+
+
+/***************************/
+
+
+/*  Below 1200px (Landscape Tablets) */
+
+
+/***************************/
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+    .features {
+        gap: 1.2rem;
+    }
+    .need-text {
+        padding: 1.2rem 1.8rem;
+    }
+    .need-p,
+    .need-text li {
+        font-size: 2.4rem;
+    }
+    .bulit::before {
+        right: -7px;
+        top: -7px;
+    }
+    .img-video {
+        max-width: 70%;
+    }
+    .img-slid {
+        max-width: 70%;
+    }
+    .how2-videos-icon1 {
+        left: 150px;
+    }
+    .borduer1::before,
+    .borduer1::after {
+        left: 145px;
+    }
+    .grid-footer {
+        gap: 6.4rem;
+    }
+}
+
+
+/***************************/
+
+
+/* Below 944px (Tablets) */
+
+
+/***************************/
+
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .heading-primary {
+        font-size: 4.8rem;
+        line-height: 1.05;
+        margin-bottom: 3.2rem;
+    }
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.2rem 0;
+    }
+    .feature {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2.4rem;
+    }
+    .heading-secondary {
+        font-size: 3.6rem;
+    }
+    .section-marketing {
+        padding: 8rem 0;
+    }
+    .marketing-img {
+        width: 100%;
+    }
+    .cont-market {
+        height: 32rem;
+    }
+    .heading-need {
+        width: 45%;
+    }
+    .need-box {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .need-img-box {
+        display: flex;
+        justify-content: center;
+    }
+    .need-img {
+        max-width: 60%;
+    }
+    .need-text {
+        padding: 2.2rem 4.8rem;
+    }
+    .how2-icons {
+        padding: 0;
+    }
+    .need-img {
+        max-width: 70%;
+    }
+    .how2-videos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-video {
+        max-width: 100%;
+    }
+    .how2-videos-icon1 {
+        left: 223px;
+        top: 120px;
+    }
+    .borduer1::before,
+    .borduer1::after {
+        left: 218px;
+        top: 115px;
+    }
+    .choose-plan1 {
+        padding: 4.2rem 1.2rem;
+    }
+    .grid-footer {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+    .company-clon,
+    .support-clon {
+        justify-self: start;
+    }
+    .footer-arrow {
+        right: 20px;
+        bottom: 38px;
+    }
+}
+
+
+/***************************/
+
+
+/* Below 704px (Smaller Tablets) */
+
+
+/***************************/
+
+@media (max-width: 44em) {
+    .header {
+        flex-direction: row;
+    }
+    .main-nav-list {
+        display: none;
+    }
+    .nav-start-mob {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    .nav-start {
+        padding: 0.8rem 1.8rem;
+        font-size: 1.2rem;
+    }
+    .nav-mob {
+        display: block;
+        font-weight: 400;
+        font-size: 3.2rem;
+        cursor: pointer;
+    }
+    .hero {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .hero-text-box {
+        padding-bottom: 0;
+    }
+    .hero-img-box {
+        width: 50%;
+    }
+    .heading-primary {
+        font-size: 4rem;
+    }
+    .heading-secondary {
+        text-align: center;
+    }
+    .info-heading-bar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-heading {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .features-btn {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .features {
+        grid-template-columns: 1fr;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .feature {
+        text-align: center;
+    }
+    .marketing-img-box {
+        display: none;
+    }
+    .cont-market {
+        grid-template-columns: 1fr;
+        height: 40rem;
+        padding-bottom: 4.2rem;
+    }
+    .marketing-tex-box {
+        padding-bottom: 4.2rem;
+    }
+    .subheading {
+        text-align: center;
+    }
+    .heading-secondary {
+        font-size: 3rem;
+    }
+    .info-heading {
+        text-align: center;
+    }
+    .marketing-tex-box {
+        width: 48rem;
+        justify-self: center;
+        margin-top: 0;
+    }
+    .features-marketing {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 1.2rem;
+        padding: 0 1.2rem;
+    }
+    .section-marketing {
+        height: 55rem;
+        padding: 3rem 0;
+    }
+    .how2-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4.2rem;
+    }
+    .how2-videos-icon1 {
+        width: 5rem;
+        height: 5rem;
+        left: 147px;
+        top: 90px;
+    }
+    .borduer1::before,
+    .borduer1::after {
+        left: 144px;
+        top: 87px;
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    .watch-icons {
+        display: none;
+    }
+    .watch-text {
+        font-weight: 700;
+        font-size: 1.8rem;
+        padding-bottom: 1.2rem;
+    }
+    .info-watch {
+        line-height: 1.6;
+        padding-bottom: 3rem;
+        text-align: left;
+    }
+    .how2-button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+    .section-app {
+        padding: 4rem;
+    }
+    .download {
+        text-align: left;
+    }
+    .app2 {
+        text-align: left;
+        font-size: 2.2rem;
+    }
+    .info-app {
+        max-width: 100%;
+        text-align: left;
+        display: block;
+    }
+    .apple-btn,
+    .android-btn {
+        height: 6rem;
+        width: 15rem;
+        border-radius: 10px;
+    }
+    .android-btn {
+        border: 1px solid #0d1137;
+    }
+    .apple-icon,
+    .android-icon {
+        height: 2rem;
+        width: 2rem;
+    }
+    .download-apple {
+        font-size: 1rem;
+    }
+    .brand {
+        font-size: 1.2;
+    }
+    .info-pricing {
+        display: block;
+    }
+    .choose-plans {
+        grid-template-columns: 1fr;
+    }
+    .testimonial-container {
+        grid-template-columns: 1fr;
+        padding: 4.4rem;
+    }
+    .testimonial-img-icons {
+        padding-bottom: 2.4rem;
+    }
+    .testimonial-job-icon {
+        display: none;
+    }
+    .testimonial-name {
+        text-align: center;
+        padding-bottom: 1.2rem;
+    }
+    .testimonial-job-icons {
+        justify-content: center;
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+        gap: 4.2rem;
+        text-align: center;
+    }
+    .company-clon,
+    .support-clon,
+    .footer-nav,
+    .social-links {
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+    }
+    .btns-copyright {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+    .footer-arrow {
+        opacity: 10%;
+    }
+}
+
+
+/***************************/
+
+
+/* Below 544px (phones) */
+
+
+/***************************/
+
+@media (max-width: 34em) {
+    .header {
+        padding: 0 3.2rem;
+    }
+    .hero {
+        padding: 6.4rem 0 0 3.2rem;
+    }
+    .section-how {
+        padding: 8rem 0;
+    }
+    .features {
+        width: 30rem;
+        text-align: center;
+        width: 40rem;
+    }
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .feature-description {
+        font-size: 1.4rem;
+    }
+    .heading-secondary {
+        font-size: 2rem;
+    }
+    .section-need {
+        padding: 3.2rem;
+    }
+    .heading-need {
+        width: 79%;
+    }
+    .need-img {
+        max-width: 50%;
+    }
+    .info-need {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .section-how2 {
+        padding: 8rem 0;
+    }
+    .how2-icons {
+        grid-template-columns: 1fr;
+        gap: 4.2rem;
+    }
+    .section-app {
+        padding: 0;
+    }
+    .testimonial-container {
+        padding: 3.2rem;
+    }
+    .heading-platforms {
+        font-size: 3rem;
+    }
+    .platforms-icons {
+        gap: 1.2rem;
+        column-gap: 2.4rem;
+    }
+    .container-footer {
+        padding: 6.4rem 3.2rem;
+    }
+}
